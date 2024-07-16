@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:padding="16dp"
+              android:background="@drawable/background_image"
+              tools:context=".MainActivity">
+
+    <TextView
+            android:id="@+id/tvHeroLevel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hero Level: 1"
+            android:textSize="24sp" />
+
+    <Button
+            android:id="@+id/btnClick"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Click" />
+
+    <TextView
+            android:id="@+id/tvGold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gold: 0"
+            android:textSize="24sp"
+            android:layout_marginTop="16dp" />
+
+    <Button
+            android:id="@+id/btnHireHelp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hire Help (Cost: 10 Gold)"
+            android:layout_marginTop="16dp" />
+
+    <TextView
+            android:id="@+id/tvHelpCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Help: 0"
+            android:textSize="24sp"
+            android:layout_marginTop="16dp" />
+
+    <TextView
+            android:id="@+id/tvEnemyHealth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enemy Health: 10"
+            android:textSize="24sp"
+            android:layout_marginTop="32dp" />
+
+    <Button
+            android:id="@+id/btnAttack"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Attack Enemy"
+            android:layout_marginTop="16dp" />
+</LinearLayout>
